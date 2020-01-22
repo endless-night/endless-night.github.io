@@ -1,0 +1,46 @@
+{
+    "name": "endless-night",
+    "repo": "endless-night.github.io",
+    "client_id": "aab89f4261087d875eba",
+    "client_secret": "705727c6dc83cd3ae79d5847b120cc330bbe35a2",
+    "title": "Gitblog",
+    "instruction": "基于GitHub issue的个人博客模板",
+    "server_link": "http://119.23.8.25/gh-oauth-server.php",
+    "pin_links": {
+    },
+	"menu": {
+        "首页":"./",
+        "机器学习":"issue_per_label.html?label=AI",
+        "小项目":"issue_per_label.html?label=Project",
+        "RM比赛":"issue_per_label.html?label=RM",
+        "ROS学习":"issue_per_label.html?label=ROS",
+        "小工具":"issue_per_label.html?label=tools",
+        "网页开发":"issue_per_label.html?label=web",
+        "其他":"issue_per_label.html?label=other",
+        "灵感想法":"https://imuncle.github.io/timeline",
+        "关于我": "content.html?id=41"
+    },
+    "friends": {
+        "imuncle" : "https://endless-night.github.io"
+    },
+    "icons": {
+        "Github" : {
+            "icon_src" : "images/github.svg",
+            "href" : "https://github.com/imuncle/gitblog",
+            "hidden_img" : null,
+            "width" : 0
+        }
+		"Wechart": {
+            "icon_src": "images/wechart.svg",
+            "href": null,
+            "hidden_img": "images/wechart-qrcode.jpg",
+            "width": 130
+        },
+        "QQ": {
+            "icon_src": "images/QQ.svg",
+            "href": "tencent://message/?uin=1378006772",
+            "hidden_img": null,
+            "width": 0
+        }
+    }
+}
